@@ -1,6 +1,7 @@
 import subprocess
 import sys
 from pytube import YouTube
+import os
 
 
 class Downloader:
@@ -14,7 +15,7 @@ class Downloader:
             print("[+] DOWNLOAD STARTED....")
             vidstreams = self.yt.streams.get_highest_resolution()
             print("[+] DOWNLOADING....")
-            vidstreams.download("D:\PROJECTS\PythonSockets\ETH\downloadutube\Download")
+            vidstreams.download(os.getcwd())
             print("[+] DOWNLOAD COMPLETE....")
         except Exception as ex:
             print("[+] SOMETHING WENT WRONG WHILE DOWNLOADING....")

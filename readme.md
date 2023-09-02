@@ -10,7 +10,7 @@ The PyTube Downloader is a simple Python program that utilizes the `pytube` libr
 2. Clone or download this repository to your local machine.
 
 ```bash
-git clone https://github.com/yourusername/pytube-downloader.git
+git clone https://github.com/bk201grsameer/DownloadVideos.git
 ```
 
 3. Navigate to the project directory:
@@ -27,7 +27,7 @@ pip install pytube
 
 ## Usage
 
-Run the program by executing the `pytube_downloader.py` script with the following command:
+Run the program by executing the `python program.py youtube_video_url` script with the following command:
 
 ```bash
 python pytube_downloader.py
@@ -51,7 +51,7 @@ Please note that the downloaded video's quality may vary depending on the source
 
 ## Contributing
 
-Contributions are welcome! If you find any issues or have suggestions for improvements, feel free to open an issue or submit a pull request on the [GitHub repository](https://github.com/bk201grsameer/pytube-downloader).
+Contributions are welcome! If you find any issues or have suggestions for improvements, feel free to open an issue or submit a pull request on the [GitHub repository](https://github.com/bk201grsameer/DownloadVideos.git).
 
 ## License
 
